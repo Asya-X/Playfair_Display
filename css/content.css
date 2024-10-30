@@ -1,0 +1,1010 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background: #000000;
+}
+
+body {
+    font-family: PLayfairDisplay;
+    font-style: normal;
+    width: 1280px;
+    height: 9731px;
+    display: block;
+    margin: 0 auto;
+    background-color: #3A001E;
+  }
+
+.first_section{
+    position: relative;
+    width: 1280px;
+    height: 1000px;
+    overflow: clip visible;
+}
+
+.wine{
+    position: absolute;
+    top:  0px;
+    left: 133px; 
+}
+
+.photocard{
+    position: relative;
+    margin-left: 1100px;
+}
+
+
+.bookclosed{
+    position: absolute;
+    right: 50px;
+    top: 36px;
+}
+
+.naknige, .bookclosed{
+    z-index: 100;
+}
+
+.hed1, .hed2{
+    z-index: 200;
+}
+
+.naknige{
+    position: absolute;
+    top: 150px;
+    left: 620px;
+    width: 500px;
+    height: 590px;
+    transform: rotate(9deg);
+}
+
+.header{ 
+    position: relative;
+    top: 100px;
+    width: 500px;
+    height: 246px;
+}
+
+.hed1,.hed2{
+    position: absolute;
+    z-index: 200; 
+    font-size: 128px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    color: #000000;
+}
+
+.hed2{
+    top: 128px;
+    left: 12px;
+}
+
+li{
+    list-style-type: disc;
+}
+
+.published, .cookbook, .insp{
+    position: absolute;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.insp{
+    top: 480px;
+    right: 40px;
+    line-height: 1.2;
+}
+
+.transitional {
+    position: relative;
+    top: 130px;
+    z-index: 100;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.cookbook {
+    top: 400px;
+    right: 190px;
+}
+
+.published{
+    top: 50px;
+    right: 140px;
+}
+
+.vosk{
+    position: absolute;
+    top:  274px;
+    left: 429px; 
+}
+.cinna{
+    position: absolute;
+    top:  54px;
+    left: 0px; 
+}
+
+.bscard{
+    position: absolute;
+    top: 590px;
+    left: 110px;
+    padding: 20px;
+    background: white;
+    transform: rotate(-26deg);
+}
+
+.claus, .type, .example{
+    font-size: 32px;
+    text-align: left;
+    color: #3A001E;
+}
+
+.claus{
+    font-weight: 700;
+    font-style: normal;
+}
+
+.type{
+    margin-top: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.example{
+    margin-top: 90px;
+    margin-left: 190px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.pencil{
+    position: relative;
+    margin-top: 800px;
+    margin-left: 695px;
+}
+
+.pencilline{
+    position: absolute;
+    top:  600px;
+    right: 540px;
+}
+
+.mini-coupon{
+    position: absolute;
+    top: 850px;
+    left: 353px;
+}
+
+.second_section{
+    position: relative;
+    width: 1280px;
+    height: 1150px;
+    overflow: clip visible;
+}
+
+.bookopen{
+    position: absolute;
+    right: -15px;
+    z-index: 100;
+}
+
+.notes{
+    position: absolute;
+    bottom: 310px;
+    left: 200px;
+}
+
+.notes2{
+    position: absolute;
+    top: 150px;
+    left: 780px;
+}
+
+.kusok {
+    position: absolute;
+    top: 550px;
+}
+
+.p12{
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    transform: rotate(16deg);
+}
+
+.about{
+    display: flex;
+    font-size: 72px;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 1.2;
+    text-align: center;
+    color:#000000;
+}
+
+.ramkapoints{
+    width: 425px;
+    height: 220px;
+    margin: 60px;
+    padding: 25px;
+    border-top: 4px;
+    border-bottom: 4px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+}
+
+.points{
+    align-self: center;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.3;
+    text-align: left;
+    color:#000000;
+}
+
+.b{
+    font-style: bold;
+    font-weight: 700;
+    }    
+
+.n12{
+    position: absolute;
+    top: 720px;
+    right: 265px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: left;
+    color:#000000;
+}
+
+.p13{
+    position: absolute;
+    top: 250px;
+    left: 740px;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    transform: rotate(8deg);
+}
+
+.pointsit, .pointsitch{
+    font-size: 32px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.3;
+    text-align: left;
+    color:#000000;
+}
+
+.pointsitch{
+    position: absolute;
+    top: 498px;
+    right: 122px;
+    transform: rotate(11deg);
+}
+
+.mode{
+    width: 100px;
+    height: 100px;
+}
+
+.beauty{
+    width: 150px;
+    height: 100px; 
+}
+
+.container{
+    position: absolute;
+    top: 550px;
+    right: 140px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 300px;
+    height: 100px;
+    transform: rotate(11deg)
+}
+
+.n13{
+    position: absolute;
+    top: 725px;
+    right: 300px;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color:#000000;
+}
+
+.sil{
+    position: absolute;
+    top: 1000px;
+    right: 354px;
+    z-index: 100;
+    font-size: 32px;
+    font-weight: 800;
+    font-style: italic;
+    text-align: center;
+    color: #000000;
+    transform: rotate(8deg);
+}
+
+.third_section{
+    position: relative;
+    width: 1280px;
+    height: 775px;
+    overflow: clip visible;
+}
+
+.photos{
+    position: absolute;
+    z-index: 100;
+}
+
+.note1{ 
+    margin-top: -80px;
+    margin-left: 140px;
+}
+.ingridients{
+    margin-top: -100px;
+    margin-left: 185px;
+    z-index: 200;
+    font-size: 48px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color:#000000;
+    transform: rotate(7deg);
+}
+
+.marker1, .marker2, .marker3{
+    position: absolute;
+    z-index: 200;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: left;
+}
+
+.marker1{
+    top: 625px;
+    left: 190px;
+    transform: rotate(-9deg);
+}
+
+.marker2{
+    top: 425px;
+    left: 660px;
+    transform: rotate(-28deg);
+}
+
+.marker3{
+    top: 470px;
+    left: 1029px;
+    transform: rotate(3deg);
+}
+
+.env1{
+    position: absolute;
+    top: 565px;
+    left: 370px;
+}
+
+.forth_section{
+    position: relative;
+    width: 1280px;
+    height: 1021px;
+    overflow: clip visible;
+    z-index: 100;
+}
+
+.paper{
+    position: relative;
+    width: 1280px;
+    height: 1021px;
+    z-index: 100;
+    padding: 45px;
+    background-color: #ffffff;
+}
+
+.namepaper{
+    display: flex;
+    width: 1191px;
+    height: 70px;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.inquisitor{
+    font-size: 72px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: left;
+}
+
+.mech1{
+    margin-top: 5px;
+    font-size: 128px;
+    font-weight: 900;
+    font-style: normal;
+    transform: rotate(-90deg);
+}
+
+.mech2{
+    margin-top: 20px;
+    font-size: 128px;
+    font-weight: 900;
+    font-style: normal;
+    transform: rotate(90deg);
+}
+
+.ppaper{
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.headpap2{
+    width: 1191px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 33px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-top: 1px #000000 solid;
+    border-bottom: 1px #000000 solid;
+}
+
+.paper_contents{
+    display: flex;
+}
+
+.left_part{
+    width: 543px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    overflow-x: hidden;
+}
+
+.symbols{
+    height: 336px;
+    display: flex;
+    margin-bottom: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.symbols div{
+    overflow-x: hidden;
+    height: 380px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2;
+}
+
+.left_part h6{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: normal;
+    text-transform: capitalize;
+    align-self:baseline;
+}
+
+.treat{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    gap: 25px;
+    width: 545px;
+    height: 230px;
+    border-top: 1px #000000 solid;
+}
+
+.treat div{
+    width: 259px;
+    height: 315px;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    max-height: fit-content;
+    line-height: 1.35;
+}
+
+.right_part{
+    width: 621px;
+    height: 724px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    overflow-x: hidden;
+    border-left: 1px #000000 solid;
+}
+
+.right_part h2 {
+    margin-top: 13px;
+    margin-left: 22px;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+.cyr_lat {
+    margin-left: 22px;
+    margin-top: 15px;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 35px;
+    border-bottom: 1px solid black;
+}
+
+.bottom_part{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+.ads{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-end;
+    gap: 13px;
+    margin-left: 22px;
+    width: 245px;
+    height: 526px;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ads div{
+    border: 1px #000000 solid;
+}
+
+.umbrella{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 20px;
+    width: 245px;
+    height: 155px;
+}
+
+.you_bold{
+    font-weight: 900;
+    margin-top: 18px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.buy_norm{
+    margin-left: 18px;
+    margin-right: 18px;
+    font-weight: 400;
+}
+
+.rains_it{
+    margin-left: 52px;
+    margin-bottom: 12px;
+    margin-right: 18px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.kabachki{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 15px;
+    width: 245px;
+    height: 85px;
+}
+
+.zaberu{
+    margin-left: 12px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.tel{
+    margin-left: 12px;
+}
+
+.ovdje{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 15px;
+    padding: 15px;
+    text-align: center;
+    line-height: 1.3;
+    width: 250px;
+    height: 275px;
+}
+
+
+.env2{
+    position: relative;
+    margin-left: 270px;
+    margin-top: -300px;
+}
+
+/* .env2{
+    position: absolute;
+    top: 776px;
+    left: 280px;
+} */
+
+.fifth_section{
+    width: 1280px;
+    height: 2110px;
+    position: relative;
+    z-index: 100;
+    overflow: clip visible;
+}
+
+.tickets{
+    position: relative;
+    margin-top: 250px;
+    margin-left: 30px;
+    z-index: 200;
+}
+
+.coupon1, .coupon2{
+    position: absolute;
+    z-index: 100;
+}
+
+.coupon1_base{
+    position: absolute;
+    top: 94px;
+    left: 70px;
+}
+
+.coupon2_base{
+    position: absolute;
+    top: 974px;
+    left: 286px;
+}
+
+.coupon1{
+    top: 200px;
+    left: 83px;
+    width: 655px;
+    height: 351px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 40px;
+    transform: rotate(14deg);
+}
+
+.coupon2{
+    top: 1140px;
+    left: 243px;
+    width: 855px;
+    height: 351px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 40px;
+    transform: rotate(331deg);
+}
+
+.nachertanii{
+    margin-bottom: 25px;
+    font-size: 72px;
+    font-weight: 900;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.comment1{
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    line-height: 1.3;
+    color: #ffffff;
+}
+
+.sixth_section{
+    position: relative;
+    width: 1280px;
+    height: 2569px;
+    overflow: clip visible;
+    z-index: 100;
+}
+
+.fair{
+    margin-top: 70px;
+    margin-left: -96px;
+    transform: rotate(15deg);
+}
+
+.fair_background{
+    margin-top: 110px;
+    margin-left: 60px;
+}
+
+.ravno{
+    position: absolute;
+    top: 360px;
+    left: 90px;
+    z-index: 100;
+    font-size: 230px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    color: #ffffff;
+}
+
+.voskl{
+    position: absolute;
+    top: 620px;
+    left: 490px;
+    font-size: 165px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    color: #F0572F;
+    transform: rotate(16deg);
+}
+
+.vopros{
+    position: absolute;
+    top: 760px;
+    left: 1120px;
+    font-size: 90px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #F0572F;
+    transform: rotate(180deg);
+}
+
+.zpt{
+    position: absolute;
+    top: 1090px;
+    left: 340px;
+    font-size: 190px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.skobka{
+    position: absolute;
+    top: 1260px;
+    left: 260px;
+    font-size: 350px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #000000;
+    transform: rotate(60deg);
+}
+
+.mnogotoch{
+    position: absolute;
+    top: 1750px;
+    right: 1155px;
+    font-size: 200px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    line-height: 0.3;
+    color: #000000;
+    transform: rotate(-75deg);
+}
+
+.lapki{
+    position: absolute;
+    top: 1700px;
+    left: 680px;
+    font-size: 350px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+    transform: rotate(30deg);
+}
+
+.pumpkin_base{
+    position: absolute;
+    top: 590px;
+    left: 590px;
+}
+
+.bestp{
+    position: absolute;
+    top: 626px;
+    left: 623px;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    color:#F0572F;
+    text-transform: uppercase;
+}
+
+.chili{
+    position: absolute;
+    top: 545px;
+    left: 110px;
+}
+
+.ravioli{
+    position: absolute;
+    top: 730px;
+    right: 185px;
+}
+
+.crisps{
+    position: absolute;
+    top: 1080px;
+    left: 385px;
+}
+
+.pills{
+    position: absolute;
+    top: 1100px;
+    left: 695px;
+}
+
+.izum{
+    position: absolute;
+    bottom: 340px;
+    right: 100px;
+}
+
+.card{
+    position: absolute;
+    top: 2180px;
+    left: 150px;
+}
+
+.cinnamon{
+    position: absolute;
+    bottom: 400px;
+    left: 185px;
+}
+
+.medal{
+    position: absolute;
+    bottom: 720px;
+    right: 455px;
+}
+
+.squadro{
+    position: absolute;
+    top: 1155px;
+    left: 65px;
+}
+
+.s5{
+    position: absolute;
+    bottom: 781px;
+    right: 264px;
+    width: 135px;
+    height: 65px;
+    font-size: 48px;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    text-align: center;
+    background-color: #ffffff;
+    transform: rotate(4deg);
+}
+
+.s1500{
+    position: absolute;
+    bottom: 1070px;
+    left: 222px;
+    width: 188px;
+    height: 64px;
+    font-size: 48px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+    background-color: #3A001E;
+    border: 3px #ffffff solid;
+    transform: rotate(-8deg);
+}
+
+.s34{
+    position: absolute;
+    top: 820px;
+    left: 550px;
+    width: 105px;
+    height: 105px;
+    font-size: 48px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    padding: 14px;
+    color: #ffffff;
+    background-color: #000000;
+    border: 3px #000000 solid;
+    border-radius: 50%;
+    transform: rotate(-8deg);
+}
+
+.s10{
+    position: absolute;
+    bottom: 20px;
+    right: 189px;
+}
+
+.last_section{
+    position: relative;
+    width: 1280px;
+    height: 970px;
+    overflow: clip visible;
+}
+
+.ligatures{
+    position: relative;
+    margin-top: -940px;
+    margin-left: 65px;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    line-height: 1.3;
+    color: #ffffff;
+    transform: rotate(-15deg);
+}
+
+.podp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 65px;
+    margin-left: 45px;
+    margin-right: 45px;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    line-height: 1.3;
+    color: #ffffff;
+}
