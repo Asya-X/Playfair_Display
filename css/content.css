@@ -30,8 +30,8 @@ body {
 }
 
 .photocard{
-    position: relative;
-    margin-left: 1100px;
+    position: absolute;
+    left: 1100px;
 }
 
 
@@ -59,7 +59,7 @@ body {
 }
 
 .header{ 
-    position: relative;
+    position: absolute;
     top: 100px;
     width: 500px;
     height: 246px;
@@ -100,7 +100,7 @@ li{
 }
 
 .transitional {
-    position: relative;
+    position: absolute;
     top: 130px;
     z-index: 100;
     font-size: 32px;
@@ -165,9 +165,9 @@ li{
 }
 
 .pencil{
-    position: relative;
-    margin-top: 800px;
-    margin-left: 695px;
+    position: absolute;
+    top: 910px;
+    left: 695px;
 }
 
 .pencilline{
@@ -176,7 +176,7 @@ li{
     right: 540px;
 }
 
-.mini-coupon{
+.mini_coupon{
     position: absolute;
     top: 850px;
     left: 353px;
@@ -198,7 +198,7 @@ li{
 .notes{
     position: absolute;
     bottom: 310px;
-    left: 200px;
+    left: 190px;
 }
 
 .notes2{
@@ -253,8 +253,7 @@ li{
     color:#000000;
 }
 
-.b{
-    font-style: bold;
+.bold{
     font-weight: 700;
     }    
 
@@ -307,13 +306,13 @@ li{
 
 .container{
     position: absolute;
+    width: 300px;
+    height: 100px;
     top: 550px;
     right: 140px;
     display: flex;
     flex-direction: row;
     gap: 15px;
-    width: 300px;
-    height: 100px;
     transform: rotate(11deg)
 }
 
@@ -357,6 +356,7 @@ li{
     margin-top: -80px;
     margin-left: 140px;
 }
+
 .ingridients{
     margin-top: -100px;
     margin-left: 185px;
@@ -410,19 +410,26 @@ li{
     z-index: 100;
 }
 
+.env2{
+    position: absolute;
+    top: 776px;
+    left: 280px;
+    z-index: 100;
+}
+
 .paper{
     position: relative;
     width: 1280px;
     height: 1021px;
-    z-index: 100;
+    z-index: 200;
     padding: 45px;
     background-color: #ffffff;
 }
 
 .namepaper{
-    display: flex;
     width: 1191px;
     height: 70px;
+    display: flex;
     flex-direction: row;
     justify-content: space-between; 
     align-items: center;
@@ -451,7 +458,7 @@ li{
     transform: rotate(90deg);
 }
 
-.ppaper{
+.headpap2  h2{
     font-size: 32px;
     font-weight: 400;
     font-style: normal;
@@ -473,65 +480,6 @@ li{
 
 .paper_contents{
     display: flex;
-}
-
-.left_part{
-    width: 543px;
-    height: 720px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 33px;
-    margin-bottom: 33px;
-    overflow-x: hidden;
-}
-
-.symbols{
-    height: 336px;
-    display: flex;
-    margin-bottom: 20px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-}
-
-.symbols div{
-    overflow-x: hidden;
-    height: 380px;
-    margin-top: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 32px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 1.2;
-}
-
-.left_part h6{
-    margin-bottom: 30px;
-    font-size: 20px;
-    font-weight: 900;
-    font-style: normal;
-    text-transform: capitalize;
-    align-self:baseline;
-}
-
-.treat{
-    display: flex;
-    flex-direction: row;
-    padding-top: 20px;
-    gap: 25px;
-    width: 545px;
-    height: 230px;
-    border-top: 1px #000000 solid;
-}
-
-.treat div{
-    width: 259px;
-    height: 315px;
-    font-size: 20px;
-    font-weight: 400;
-    font-style: normal;
-    max-height: fit-content;
-    line-height: 1.35;
 }
 
 .right_part{
@@ -572,17 +520,18 @@ li{
     display: flex;
     flex-direction: row;
     gap: 18px;
+    margin-top: 35px;
 }
 
 .ads{
+    width: 245px;
+    height: 526px;
     display: flex;
     flex-direction: column;
     align-items: center;
     align-self: flex-end;
     gap: 13px;
     margin-left: 22px;
-    width: 245px;
-    height: 526px;
     font-size: 20px;
     font-weight: 400;
     font-style: normal;
@@ -593,19 +542,19 @@ li{
 }
 
 .umbrella{
-    display: flex;
-    flex-direction: column;
-    font-size: 20px;
-    gap: 20px;
     width: 245px;
     height: 155px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
 }
 
 .you_bold{
-    font-weight: 900;
     margin-top: 18px;
     margin-left: 18px;
     margin-right: 18px;
+    font-weight: 900;
 }
 
 .buy_norm{
@@ -623,12 +572,12 @@ li{
 }
 
 .kabachki{
-    display: flex;
-    flex-direction: column;
-    font-size: 20px;
-    gap: 15px;
     width: 245px;
     height: 85px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
 }
 
 .zaberu{
@@ -642,29 +591,73 @@ li{
 }
 
 .ovdje{
-    display: flex;
-    flex-direction: column;
-    font-size: 20px;
-    gap: 15px;
-    padding: 15px;
-    text-align: center;
-    line-height: 1.3;
     width: 250px;
     height: 275px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.3;
 }
 
-
-.env2{
-    position: relative;
-    margin-left: 270px;
-    margin-top: -300px;
+.left_part{
+    width: 543px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    overflow-x: hidden;
 }
 
-/* .env2{
-    position: absolute;
-    top: 776px;
-    left: 280px;
-} */
+.symbols{
+    height: 336px;
+    display: flex;
+    margin-bottom: 20px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.symbols div{
+    height: 380px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2;
+}
+
+.left_part h6{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+.treat{
+    width: 545px;
+    height: 230px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    gap: 25px;
+    border-top: 1px #000000 solid;
+}
+
+.treat div{
+    width: 259px;
+    height: 315px;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    max-height: fit-content;
+    line-height: 1.35;
+}
 
 .fifth_section{
     width: 1280px;
@@ -683,7 +676,7 @@ li{
 
 .coupon1, .coupon2{
     position: absolute;
-    z-index: 100;
+    z-index: 300;
 }
 
 .coupon1_base{
@@ -696,6 +689,7 @@ li{
     position: absolute;
     top: 974px;
     left: 286px;
+    z-index: 100;
 }
 
 .coupon1{
@@ -732,7 +726,7 @@ li{
     color: #ffffff;
 }
 
-.comment1{
+.comment{
     font-size: 32px;
     font-weight: 400;
     font-style: normal;
@@ -949,8 +943,8 @@ li{
 
 .s34{
     position: absolute;
-    top: 820px;
-    left: 550px;
+    top: 830px;
+    left: 530px;
     width: 105px;
     height: 105px;
     font-size: 48px;
@@ -969,8 +963,8 @@ li{
 
 .s10{
     position: absolute;
-    bottom: 20px;
-    right: 189px;
+    bottom: 40px;
+    left: 750px;
 }
 
 .last_section{
@@ -981,9 +975,9 @@ li{
 }
 
 .ligatures{
-    position: relative;
-    margin-top: -940px;
-    margin-left: 65px;
+    position: absolute;
+    left: 110px;
+    bottom: 730px;
     font-size: 32px;
     font-weight: 400;
     font-style: normal;
@@ -993,7 +987,12 @@ li{
     transform: rotate(-15deg);
 }
 
-.podp{
+.pechenki{
+    position: absolute;
+    left: 35px;
+}
+
+.name_group{
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
